@@ -12,7 +12,7 @@ public class TypeCastingObjects2 {
         Animal an = new Dog();
         Cat ct = (Cat) an; // valid as per rule 1
         Dog dg = new Dog();
-        Cat ct1 = (Cat) dg; // invalid as per rule 1
+       // Cat ct1 = (Cat) dg; // invalid as per rule 1
 
         // Rule 2: Assignment is valid or not
         // 'C' must be either same or child of 'A'
@@ -21,7 +21,7 @@ public class TypeCastingObjects2 {
         Cat ctt = (Cat) a; // valid as per rule 2
 
         Animal ann = new Dog();
-        Cat cttt = (Dog) ann; // invalid as per rule 2
+        // Cat cttt = (Dog) ann; // invalid as per rule 2
 
         // Rule 3: The underlying object type 'd' must be either same or child of 'C'
         Animal annn = new Dog();
