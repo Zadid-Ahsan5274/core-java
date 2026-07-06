@@ -30,3 +30,30 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for VS Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
