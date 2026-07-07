@@ -1,5 +1,6 @@
 package sdet;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
@@ -11,10 +12,17 @@ public class CheckedExceptions {
         System.out.println("Program in progress...");
 
         Thread.sleep(5000);
-        Thread.sleep(5000);
-        Thread.sleep(5000);
+        // Thread.sleep(5000);
+       // Thread.sleep(5000);
         
-        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"src\\sdet\\Text.txt");  
+        File file = new File(System.getProperty("user.dir")+File.separator+"Text.txt");
+        if(file.exists()){
+            System.out.println("File exists at location: "+file.getAbsolutePath());
+            FileInputStream fis = new FileInputStream(file);
+        }
+        else {
+            System.out.println("File not found!");
+        }
 
         /* 
         try{
