@@ -1,6 +1,6 @@
 package sdet;
 
-class Animal 
+class Animal1 
 {
     String color = "White"; 
     
@@ -10,7 +10,7 @@ class Animal
     }
 }
 
-class Dog extends Animal
+class Dog1 extends Animal1
 {
     String color = "Black";
 
