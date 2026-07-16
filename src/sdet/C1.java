@@ -4,7 +4,7 @@ public class C1 extends C2 implements I1, I2{
 
     @Override
     public void method1(){
-        System.out.println("method1 from I1: "+x);
+        System.out.println("method1 from I1: "+z);
     }
 
     @Override

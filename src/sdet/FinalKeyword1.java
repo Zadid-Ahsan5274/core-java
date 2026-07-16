@@ -8,7 +8,7 @@ class Test1
     }
 }
 
-class Test2 extends Test1
+class Test2 extends Test3
 {
     /* 
     void m() // incorrect because method m() is declared as 'final'

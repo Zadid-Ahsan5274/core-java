@@ -8,7 +8,7 @@ class Test
 public class FinalKeyword {
 
     public static void main(String[] args) {
-        Test t = new Test();
+        Test3 t = new Test3();
         // t.x = 350; -> incorrect because x is the final variable
         
         System.out.println(t.x);
