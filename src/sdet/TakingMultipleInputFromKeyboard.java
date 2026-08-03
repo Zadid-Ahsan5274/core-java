@@ -25,7 +25,7 @@ public class TakingMultipleInputFromKeyboard {
         Object unknown = user_input.next();
         System.out.println("Unknown value is: "+unknown);
 
-
+        user_input.close();
 
     }
 }
